@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
   "author": "Marcelo Cunha",
   "license": "ISC"
