@@ -48,7 +48,7 @@ client.on('message', async message => {
                         client.user.setActivity(info.videoDetails.title, {type: 'LISTENING', url: args[0]});
                         //message.channel.send(':radio: Playing: ' + info.videoDetails.title);
                     });
-                    const dispatcher = connection.play(stream).setVolumeDecibels(-15);
+                    const dispatcher = connection.play(stream)/*.setVolumeDecibels(-15)*/;
                     
 
                     
